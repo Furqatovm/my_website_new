@@ -33,7 +33,8 @@ header{
     margin-left: auto;
 }
 body{
-    background-color: black;
+    background-image: url(./assets/me_and_ali.jpg);
+    background-size: cover;
     width: 100%;
     height: 100vh;
 }
