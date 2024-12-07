@@ -1,0 +1,84 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.header-left-img{
+    width: 80px;
+    border-radius: 50%;
+}
+.nav-child{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header-button{
+    padding: 15px 30px;background-color:orange;
+    border-radius: 10px;
+    border-color: transparent;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.left-img{
+    width: 300px;
+}
+.wrapper-all{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap-reverse;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.right-h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.right-matn{
+    font-size: 16px;
+}
+.right-h1:hover{
+    color: aquamarine;
+}
+.right-matn:hover{
+    color: aquamarine;
+}
+.nav-child:hover{
+    color: aquamarine;
+    border-bottom: 2px solid orange;
+}
+.header-button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.left-img:hover{
+    transform: scale(1.1);
+}
+.header-left-img:hover{
+    transform: scale(1.1);
+}
